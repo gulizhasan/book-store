@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+body,
+p,
+nav,
+ul,
+li,
+header,
+footer,
+h1,
+section,
+article {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ededed;
+}
+
+#container {
+  margin: auto;
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+  background-color: #e2d1f9;
+  color: #383838;
+}
+
+header {
+  height: auto;
+  width: auto;
+  margin: 5px;
+  padding: 15px;
+  color: #e2d1f9;
+  background-color: #317773;
+  display: flex;
+  align-items: flex-end;
+}
+
+nav {
+  text-align: right;
+  color: #e2d1f9;
+  background-color: #317773;
+  flex: 1;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 1100px;
+  padding: 50px;
+}
+
+#article1,
+#article2,
+#article3,
+#article4 {
+  width: auto;
+  height: auto;
+  min-height: 270px;
+  margin: 0.5em;
+  padding: 15px;
+  background-color: #e2d1f9;
+  color: #383838;
+  text-align: right;
+}
+
+img {
+  float: left;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+}
+
+.icon {
+  float: none;
+  margin-left: 10px;
+}
+
+button {
+  background-color: #317773;
+}
+
+body {
+  width: 100%;
+}
+
+p {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #e2d1f9;
+}
+
+#pay {
+  background-color: #e2d1f9;
+  padding: 15px;
+  width: auto;
+  height: auto;
+  margin: 0.5em;
+  text-align: left;
+}
+
+#send {
+  background-color: #317773;
+  color: #e2d1f9;
+}
+
+@media screen and (max-width: 480px) {
+  .column1,
+  .column2 {
+    width: 100%;
+    float: none;
+  }
+
+  img {
+    padding: 10px;
+    margin: 0.5em;
+    min-width: 35%;
+  }
+
+  .icon {
+    height: auto;
+    width: auto;
+  }
+
+  #article1,
+  #article2,
+  #article3,
+  #article4 {
+    font-size: 120%;
+  }
+
+  #pay {
+    font-size: 200%;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  header {
+    font-size: 150%;
+  }
+
+  button {
+    font-size: 120%;
+  }
+
+  #send {
+    font-size: 80%;
+  }
+
+  #card,
+  #month,
+  #year,
+  #security {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .column1,
+  .column2 {
+    width: 100%;
+    float: none;
+  }
+
+  img {
+    padding: 10px;
+    margin: 0.5em;
+    min-width: 35%;
+  }
+
+  .icon {
+    height: auto;
+    width: auto;
+  }
+
+  #article1,
+  #article2,
+  #article3,
+  #article4 {
+    font-size: 200%;
+  }
+
+  #pay {
+    font-size: 300%;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  header {
+    font-size: 180%;
+  }
+
+  button {
+    font-size: 120%;
+  }
+
+  #send {
+    font-size: 80%;
+  }
+
+  #card,
+  #month,
+  #year,
+  #security {
+    font-size: 60%;
+  }
+}
